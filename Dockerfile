@@ -18,6 +18,7 @@ COPY simulator.ipynb \
     remote.ipynb \
     requirements.txt \
     commonLogic.py \
+    common_quantum.py \
     img/ \
     /app/
 
