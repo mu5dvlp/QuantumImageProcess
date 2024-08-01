@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
 
 # ファイルをコピー
 COPY main.ipynb \
+    remote.ipynb \
     requirements.txt \
     commonLogic.py \
     img/ \

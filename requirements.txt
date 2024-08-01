@@ -1,6 +1,7 @@
 # Qiskit導入
 qiskit
 qiskit_aer
+qiskit_ibm_runtime
 qiskit_optimization
 
 # 回路図などの画像生成用
