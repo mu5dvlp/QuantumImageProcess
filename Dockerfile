@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # ファイルをコピー
-COPY main.ipynb \
+COPY simulator.ipynb \
     remote.ipynb \
     requirements.txt \
     commonLogic.py \
