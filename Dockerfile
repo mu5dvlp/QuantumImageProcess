@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 COPY simulator.ipynb \
     remote.ipynb \
     requirements.txt \
-    commonLogic.py \
+    common_logic.py \
     common_quantum.py \
     img/ \
     /app/
