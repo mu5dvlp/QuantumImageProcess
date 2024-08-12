@@ -10,7 +10,6 @@ def create_QuantumCircuit_by_Statevector(sv):
     n_qubits = int(np.log2(len(sv)))
     qc = QuantumCircuit(n_qubits,n_qubits)
     qc.initialize(sv,range(n_qubits))
-    qc.measure(range(n_qubits),range(n_qubits))
     return qc
 
 
