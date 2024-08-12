@@ -11,8 +11,8 @@ def gray_code(n):
 
 def gray_code_2d(w, h):
     """w x h の2次元グレイコードを生成する関数"""
-    log2_w = w.bit_length()
-    log2_h = h.bit_length()
+    log2_w = (w-1).bit_length()
+    log2_h = (h-1).bit_length()
     
     # グレイコードの生成
     gray_codes_x = gray_code(log2_w)
